@@ -1,0 +1,21 @@
+@import "tailwindcss";
+:root{
+  font-family: "Montserrat", sans-serif;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+}
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+}
+.section-padding{
+  padding: 10vh 12vw 5vh 12vw;
+}
+
+body {
+  background: radial-gradient(circle, white 20%, #e0e0e0 80%);
+}
+
+html{
+  scroll-behavior: smooth;
+}

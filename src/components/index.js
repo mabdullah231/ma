@@ -1,0 +1,8 @@
+export {default as Header} from './Header'
+export {default as Logo} from './Logo'
+export {default as SectionHeading} from './SectionHeading'
+export {default as Berries} from './Berries'
+export {default as MoreButton} from './MoreButton'
+export {default as AboutSkill} from './AboutSkill'
+export {default as Skills} from './Skills'
+export {default as SingleSkill} from './SingleSkill'
