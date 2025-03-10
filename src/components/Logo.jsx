@@ -4,6 +4,7 @@ import logoWhite from '../assets/images/M.png';
 
 const Logo = ({ isScroll }) => {
   return (
+    <a href="#hero">
     <img
       src={isScroll ? logoWhite : logo}
       width="60"
@@ -11,6 +12,7 @@ const Logo = ({ isScroll }) => {
       alt="Logo"
       className="transition-all rounded duration-300"
     />
+    </a>
   );
 };
 

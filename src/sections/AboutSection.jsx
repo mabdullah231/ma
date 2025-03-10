@@ -8,11 +8,12 @@ const AboutSection = () => {
     <section className="section-padding" id="about">
       <div className="flex justify-center items-center flex-col gap-12">
         <SectionHeading title="About me" />
-        <p className="text-xs open-sans px-25 lg:px-50 md:px-40 text-center">
-          Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
-          varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna
-          quis libero viverra facilisis ut ac est.
-        </p>
+        <p className="text-xs open-sans px-6 sm:px-10 md:px-20 lg:px-40 xl:px-50 text-center">
+  Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
+  varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna
+  quis libero viverra facilisis ut ac est.
+</p>
+
         <MoreButton
           title="Explore"
           border="black"
@@ -22,7 +23,7 @@ const AboutSection = () => {
         />
         <img src={separator} width="100px" alt="Separator" />
 
-        <div className="aboutSkills flex justify-center mx-[0vw] md:mx-[2vw] lg:mx-[6vw] gap-6 flex-wrap">
+        <div className="aboutSkills flex justify-center mx-[0vw] md:mx-[2vw] lg:mx-[6vw] gap-9 flex-wrap">
           <AboutSkill
             icon={Code}
             title="Development"

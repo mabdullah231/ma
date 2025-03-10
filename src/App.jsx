@@ -1,6 +1,6 @@
 import "./App.css";
-import { HeroSection, AboutSection, SkillsSection } from "./sections";
-import { Header,Berries } from "./components";
+import { HeroSection, AboutSection, SkillsSection,PortfolioSection,ContactSection } from "./sections";
+import { Header,Berries,Footer } from "./components";
 
 function App() {
   return <>
@@ -8,6 +8,9 @@ function App() {
   <Berries/>
   <AboutSection/>    
   <SkillsSection/>    
+  <PortfolioSection/>    
+  <ContactSection/>    
+  <Footer/>    
   </>;
 }
 

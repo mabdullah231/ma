@@ -5,7 +5,7 @@ import { Twitter, Github, Facebook } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-<section className="h-screen px-[12vw] flex flex-col relative bg-[#C4C4C4] overflow-hidden ">
+<section className="h-screen px-[12vw] flex flex-col relative bg-[#C4C4C4] overflow-hidden" id='hero'>
   {/* Header */}
   <Header />
 

@@ -10,7 +10,7 @@ const AboutSkill = ({ icon: Icon, title, description }) => {
         ) : (
           <Code size={64} className="inline text-gray-400/65" />
         )}
-        <h4 className="text-xl font-bold uppercase ml-[-25px]">
+        <h4 className="text-xl font-bold uppercase ml-[-20px]">
           {title || "DEVELOPMENT"}
         </h4>
       </div>
