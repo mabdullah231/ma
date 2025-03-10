@@ -2,14 +2,17 @@ import React, { useState } from "react";
 import PortfolioCard1 from "../assets/images/PortfolioCard1.png";
 import PortfolioCard2 from "../assets/images/PortfolioCard2.png";
 import PortfolioCard3 from "../assets/images/PortfolioCard3.png";
+import PortfolioCard4 from "../assets/images/PortfolioCard4.jpeg";
+import PortfolioCard5 from "../assets/images/PortfolioCard5.png";
+import PortfolioCard6 from "../assets/images/PortfolioCard6.png";
 
 const portfolioItems = [
-  { id: 1, category: "coded", image: PortfolioCard1 },
-  { id: 2, category: "designed", image: PortfolioCard2 },
-  { id: 3, category: "coded", image: PortfolioCard3 },
-  { id: 4, category: "coded", image: PortfolioCard1 },
-  { id: 5, category: "designed", image: PortfolioCard2 },
-  { id: 6, category: "coded", image: PortfolioCard3 },
+  { id: 1, category: "php", image: PortfolioCard1 },
+  { id: 2, category: "react", image: PortfolioCard2 },
+  { id: 3, category: "react", image: PortfolioCard3 },
+  { id: 4, category: "php", image: PortfolioCard4 },
+  { id: 5, category: "php", image: PortfolioCard5 },
+  { id: 6, category: "react", image: PortfolioCard6 },
 ];
 
 const PortfolioTabs = () => {
@@ -24,7 +27,7 @@ const PortfolioTabs = () => {
     <div className="w-full flex flex-col items-center bg-[#1A1A1A] pt-[5vh] mt-8">
       {/* Tabs */}
       <div className="flex space-x-16 border-b border-gray-600">
-        {["all", "coded", "designed"].map((tab) => (
+        {["all", "react", "php"].map((tab) => (
             <button
   key={tab}
   onClick={() => setActiveTab(tab)}

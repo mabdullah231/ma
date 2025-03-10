@@ -4,7 +4,7 @@ import separator from "../assets/images/separatorBlack.png";
 
 const ContactSection = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding" id="contact">
       <div className="flex justify-center items-center flex-col gap-12">
         <SectionHeading title="Contact" />
         <p className="text-xs open-sans px-6 sm:px-10 md:px-20 lg:px-40 xl:px-50 text-center">
