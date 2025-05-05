@@ -12,6 +12,7 @@ import jsLogo from "../assets/images/js.png";
 import vapiLogo from "../assets/images/vapi.png";
 import langchainLogo from "../assets/images/langchain.png";
 import nodeLogo from "../assets/images/node.png";
+import angularLogo from "../assets/images/Angular.png";
 import mongoLogo from "../assets/images/mongo.png";
 
 const SkillsSection = () => {
@@ -23,14 +24,15 @@ const SkillsSection = () => {
     { logo: tailwindLogo, title: "Tailwind" },
     { logo: laravelLogo, title: "Laravel" },
     { logo: mysqlLogo, title: "MySQL" },
+    { logo: postgresLogo, title: "PostgreSQL" },
     { logo: langchainLogo, title: "LangChain" },
-    { logo: jsLogo, title: "JavaScript" },
+    // { logo: jsLogo, title: "JavaScript" },
   ];
   const skillsDataLearning = [
-    { logo: postgresLogo, title: "PostgreSQL" },
     { logo: fastapiLogo, title: "FastAPI" },
     { logo: mongoLogo, title: "MongoDB" },   
     { logo: nodeLogo, title: "NODE" },
+    { logo: angularLogo, title: "Angular" },
 
   ];
 

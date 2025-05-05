@@ -8,12 +8,18 @@ const Footer = () => {
        <a href="#hero"><ChevronUp className='text-white' /></a>
        <a href="#hero" className='text-white tracking-widest mt-2 font-bold uppercase'>Back To Top</a>
        <div className="socials text-white flex gap-6 my-8">
+        <a href="https://www.facebook.com/profile.php?id=100095232774649" target='_blank'>
        <FacebookIcon className='hover:text-gray-300 cursor-pointer transition'/>
+        </a>
+        <a href="https://www.linkedin.com/in/macodes/" target='_blank'>
        <LinkedinIcon className='hover:text-gray-300 cursor-pointer transition'/>
-       <InstagramIcon className='hover:text-gray-300 cursor-pointer transition'/>
+        </a>
+
+        <a href="https://github.com/mabdullah231" target='_blank'>
        <Mail className='hover:text-gray-500 cursor-pointer transition'/>
+        </a>
        </div>
-       <span className='text-md text-white'><span className='font-bold'>©2024 Muhammad A.</span> &nbsp; All Rights Reserved.</span>
+       <span className='text-md text-white'>©{new Date().getFullYear()} <span className='font-bold'><a target='_blank' href="//www.macodes.dev">macodes</a></span> &nbsp;All Rights Reserved.</span>
     </footer>
   )
 }

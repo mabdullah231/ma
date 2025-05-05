@@ -8,9 +8,7 @@ const ContactSection = () => {
       <div className="flex justify-center items-center flex-col gap-12">
         <SectionHeading title="Contact" />
         <p className="text-xs open-sans px-6 sm:px-10 md:px-20 lg:px-40 xl:px-50 text-center">
-          Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
-          varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna
-          quis libero viverra facilisis ut ac est.
+        Have a project in mind or a question? Let’s connect and build something great together.
         </p>
         <img src={separator} width="100px" alt="Separator" />
         <form className="flex gap-8 flex-col md:gap-6 sm:gap-4">
@@ -34,7 +32,7 @@ const ContactSection = () => {
     rows="6"
     placeholder="Your Message*"
   ></textarea>
-  <MoreButton title="Submit" padding="8" margin="auto" />
+  <MoreButton title="Submit" padding="6" margin="auto" />
 </form>
 
       </div>
