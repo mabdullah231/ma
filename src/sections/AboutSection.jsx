@@ -19,7 +19,7 @@ const AboutSection = () => {
         /> */}
         <img src={separator} width="100px" alt="Separator" />
 
-        <div className="aboutSkills flex justify-center mx-[0vw] md:mx-[2vw] lg:mx-[6vw] gap-9 flex-wrap">
+        <div className="aboutSkills flex justify-center mx-[0vw] md:mx-[2vw] lg:mx-[6vw] gap-6 flex-wrap">
           <AboutSkill
             icon={Code}
             title="Development"
