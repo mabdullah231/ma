@@ -66,7 +66,7 @@ const HeroSection = () => {
           <img
             src={heroPerson}
             alt="Muhammad Abdullah"
-            className="w-[380px] h-[380px] md:w-[400px] md:h-[420px] lg:w-[450px] lg:h-[480px] xl:w-[480px] xl:h-[520px] z-30"
+            className="w-[450px] h-[340px] md:w-[400px] md:h-[420px] lg:w-[450px] lg:h-[480px] xl:w-[480px] xl:h-[520px] z-30"
           />
         </div>
       </div>
